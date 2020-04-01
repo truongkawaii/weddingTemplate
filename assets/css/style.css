@@ -267,6 +267,10 @@
         justify-content: center;
     }
     
+    .container {
+        overflow-x: hidden;
+    }
+    
     #music {
         z-index: 999;
         position: fixed;
@@ -283,5 +287,11 @@
     @media (max-width:991px) {
         html {
             font-size: 59%;
+        }
+    }
+    
+    @media (max-width:767px) {
+        html {
+            font-size: 55%;
         }
     }
