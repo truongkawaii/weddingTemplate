@@ -1,0 +1,287 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    ul,
+    ol {
+        list-style: none;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .wrapper {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    
+    @font-face {
+        font-family: marsha;
+        src: url(../css/marsha\ belle\ dafont.otf);
+    }
+    /* style header  */
+    /* ============================================= */
+    
+    .header {
+        background-position: center;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/OIZY2P0.jpg);
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header .header__info {
+        display: flex;
+        justify-content: center;
+    }
+    /*     
+    style home page 
+    ==================== */
+    
+    .homepage {
+        padding: 5rem 0 12rem 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .homepage .homepage__info {
+        display: contents;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .homepage .homepage__info .homepage__title {
+        padding: 4rem;
+    }
+    
+    .homepage h1 {
+        font-family: marsha;
+        font-weight: 400;
+        font-size: 7rem;
+        color: #333333;
+    }
+    
+    .homepage p {
+        color: #333333;
+        font-size: 3rem;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .homepage .homepage__info img {
+        padding: 2rem 0;
+    }
+    
+    .homepage .homepage__card {
+        box-shadow: 2px 3px 4px #ccc;
+        display: flex;
+        margin-top: 3rem;
+        border-radius: 1rem;
+        align-items: center;
+        transition: all ease-out 0.2s;
+    }
+    
+    .homepage .homepage__card img {
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .homepage .homepage__card .card__text {
+        display: flex;
+        align-items: center;
+        padding: 1.8rem 0;
+    }
+    
+    .homepage .homepage__card .card__text h5 {
+        font-family: 'Dosis', sans-serif;
+        color: #6f6f6f;
+        font-size: 2.4rem;
+        font-weight: 400;
+        padding-left: 3rem;
+    }
+    
+    .homepage .homepage__card:hover {
+        transform: translateY(-3%);
+        box-shadow: 4px 4px 5px rgb(138, 135, 135);
+    }
+    /* style bussines */
+    /* ======================================= */
+    
+    .business {
+        padding: 4rem 0 8rem 0;
+        background-color: #F6F6F6;
+    }
+    
+    .business .business__info {
+        display: contents;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .business .business__info .business__title {
+        padding: 4rem;
+    }
+    
+    .business h1 {
+        font-family: marsha;
+        font-weight: 400;
+        font-size: 7rem;
+        color: #333333;
+    }
+    
+    .business p {
+        color: #333333;
+        font-size: 3rem;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .business .business__info img {
+        padding: 4rem 0;
+    }
+    
+    .business .business__card {
+        box-shadow: 2px 3px 4px #ccc;
+        display: flex;
+        margin-top: 3rem;
+        border-radius: 1rem;
+        align-items: center;
+        transition: all ease-out 0.2s;
+    }
+    
+    .business .business__card img {
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .business .business__card .card__text {
+        display: flex;
+        align-items: center;
+        padding: 1.8rem 0;
+    }
+    
+    .business .business__card .card__text h5 {
+        font-family: 'Dosis', sans-serif;
+        color: #6f6f6f;
+        font-size: 2.4rem;
+        font-weight: 400;
+        padding-left: 3rem;
+    }
+    
+    .business .business__card:hover {
+        transform: translateY(-3%);
+        box-shadow: 4px 4px 5px rgb(138, 135, 135);
+    }
+    /* style invitations */
+    /* ============================================ */
+    
+    .invitations {
+        padding: 10rem 0;
+    }
+    
+    .invitations .invitations__info {
+        display: contents;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .invitations .invitations__info .business__title {
+        padding: 4rem;
+    }
+    
+    .invitations h1 {
+        font-family: marsha;
+        font-weight: 400;
+        font-size: 7rem;
+        color: #333333;
+    }
+    
+    .invitations p {
+        color: #333333;
+        font-size: 3rem;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .invitations .invitations__info img {
+        padding: 4rem 0;
+    }
+    
+    .invitations .invitations__card {
+        box-shadow: 2px 3px 4px #ccc;
+        display: flex;
+        margin-top: 3rem;
+        border-radius: 1rem;
+        align-items: center;
+        transition: all ease-out 0.2s;
+    }
+    
+    .invitations .invitations__card img {
+        border-radius: 1rem 1rem 0 0;
+    }
+    
+    .invitations .invitations__card .card__text {
+        display: flex;
+        align-items: center;
+        padding: 1.8rem 0;
+    }
+    
+    .invitations .invitations__card .card__text h5 {
+        font-family: 'Dosis', sans-serif;
+        color: #6f6f6f;
+        font-size: 2.4rem;
+        font-weight: 400;
+        padding-left: 3rem;
+    }
+    
+    .invitations .invitations__card:hover {
+        transform: translateY(-3%);
+        box-shadow: 4px 4px 5px rgb(138, 135, 135);
+    }
+    
+    .footer {
+        display: flex;
+        height: 80vh;
+        align-items: center;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/OIZY2P0.jpg);
+    }
+    
+    .footer .footer__info {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #music {
+        z-index: 999;
+        position: fixed;
+        bottom: 30px;
+        right: 0;
+    }
+    
+    #audio {
+        height: 50px;
+        /* display: none; */
+        outline: none;
+    }
+    
+    @media (max-width:991px) {
+        html {
+            font-size: 59%;
+        }
+    }
